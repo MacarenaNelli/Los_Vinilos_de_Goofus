@@ -1,0 +1,21 @@
+@mixin flex-rs { 
+    background-color: #5E707F;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+}
+
+.redes__sociales { 
+    @include flex-rs;
+}
+
+.envios-txt { 
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #5E707F;
+    text-align: justify;
+}
+
+.container li {
+    @extend .envios-txt;
+}

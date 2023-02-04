@@ -1,195 +1,193 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-html, body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+html, body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.8rem;
-    text-transform: none;
-    margin-top: auto;
-    min-height: 5vh;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  text-transform: none;
+  margin-top: auto;
+  min-height: 5vh;
 }
 
-footer span{
-    color: #5E707F;
+footer span {
+  color: #5E707F;
 }
 
 /*PAGE DE HOME*/
 /*REDES SOCIALES*/
 .img__rs {
-    width: 2.5rem;
-    margin-right: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+  width: 2.5rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .redes__sociales {
-    background-color: #5E707F;
-    display: flex;
-    justify-content: flex-end;
-    gap:1em;
+  background-color: #5E707F;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
 }
 
-hr{ 
-    height: 0.5rem;
-    background-color: #D6BB71;
-    opacity: 100%;
-    margin: 0;
-    border-top: var(--bs-border-width) none;
+hr {
+  height: 0.5rem;
+  background-color: #D6BB71;
+  opacity: 100%;
+  margin: 0;
+  border-top: var(--bs-border-width) none;
 }
 
 .center {
-    background-image: url(../img/img-fondo.jpg);
-    height: 80vh;
+  background-image: url(../img/img-fondo.jpg);
+  height: 80vh;
 }
 
 .navbar-index {
-    background-color: #5E707F;
+  background-color: #5E707F;
 }
-
 .navbar-index a {
-    text-decoration: none;
-    color: white;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 1.2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.2rem;
 }
 
-/*GENERAL PARA TODAS LAS PAGES SALVO HOME*/
-.navbar{
-    font-size: 1.2rem;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(94,112,127,1) 49%, rgba(214,187,113,1) 100%);
+.us h1 {
+  font-size: 1.2rem;
+  color: #5E707F;
+  margin-top: 1.5rem;
 }
 
-.navbar-nav { 
-    font-weight:500;
-    font-style: italic;
+/*GENERAL PARA TODAS LAS PAGES EXCEPTO HOME*/
+.navbar {
+  font-size: 1.2rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(2, 0, 36) 0%, rgb(94, 112, 127) 49%, rgb(214, 187, 113) 100%);
 }
-
 .navbar button {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    color: #5E707F;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  color: #5E707F;
+}
+
+.navbar-nav {
+  font-weight: 500;
+  font-style: italic;
 }
 
 .navbar-toggler {
-    background-color: white;
+  background-color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #D6BB71;
 }
 
 /*PAGE DE VINILOS & CD'S*/
-
-.img-gallery{
-    height: 50vh;
-    object-fit: cover;
+.img-gallery {
+  height: 50vh;
+  object-fit: cover;
 }
 
 .img-trans {
-    transition: all 1s;
+  transition: all 1s;
 }
-
 .img-trans:hover {
-    transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .title-music {
-    background-color: #5E707F;
-    color: white;
-    padding: 0.3rem;
-    font-size: 1rem;
+  background-color: #5E707F;
+  color: #ffffff;
+  padding: 0.3rem;
+  font-size: 1rem;
 }
 
 h5 {
-    font-weight: 900;
-    font-style: italic;
+  font-weight: 900;
+  font-style: italic;
 }
 
 @media screen and (max-width: 448px) {
-    footer {
-        font-size: 0.7rem;
-    }
+  footer {
+    font-size: 0.7rem;
+  }
 }
-
 /*PAGE DE LIBROS*/
-
 .detail p {
-    font-weight: 700;
-    color: #5E707F;
-    font-size: 0.9rem;
+  font-weight: 700;
+  color: #5E707F;
+  font-size: 0.9rem;
 }
 
 .container a {
-    text-decoration: none;
-    color: #D6BB71;
-    font-weight: 700;
+  text-decoration: none;
+  color: #D6BB71;
+  font-weight: 700;
+}
+.container h4 {
+  background-color: #5E707F;
+  color: #ffffff;
+  font-style: italic;
+  padding: 0.5rem;
 }
 
-.section { 
-    font-weight: 700;
-    font-style: italic;
+.section {
+  font-weight: 700;
+  font-style: italic;
 }
 
 /*PAGE DE NOSOTROS*/
-.us-txt { 
-    text-align: justify;
-    color: #5E707F;
-    font-size: 1.3rem;
-    font-weight: 700;
+.us-txt {
+  text-align: justify;
+  color: #5E707F;
+  font-size: 1.3rem;
+  font-weight: 700;
 }
 
-.container h4 {
-    background-color: #5E707F;
-    color: white;
-    font-style: italic;
-    padding: 0.5rem;
-}
-
-.container li {
-    color: #5E707F;
-    font-size: 0.85rem;
-    font-weight: 700;
-}
-
-.envios-txt {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: #5E707F;
-    text-align: justify;
+.envios-txt, .container li {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #5E707F;
+  text-align: justify;
 }
 
 .drop-back {
-    background-color: #5E707F;
+  background-color: #5E707F;
 }
 
 .btn-drop {
-    color: white;
-    border: none;
+  color: #ffffff;
+  border: none;
 }
 
 /*PAGE DE CONTACTO*/
 .form-control {
-    resize: none;
+  resize: none;
 }
 
 .btn-contact {
-    background-color: #5E707F;
+  background-color: #5E707F;
 }
 
+/*# sourceMappingURL=styles.css.map */

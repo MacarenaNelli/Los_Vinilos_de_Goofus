@@ -1,0 +1,19 @@
+{
+  "name": "los-vinilos-de-goofus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacarenaNelli/PreEntrega2_Nelli_Macarena.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MacarenaNelli/PreEntrega2_Nelli_Macarena/issues"
+  },
+  "homepage": "https://github.com/MacarenaNelli/PreEntrega2_Nelli_Macarena#readme"
+}
