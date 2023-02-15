@@ -159,6 +159,10 @@ h5 {
     }
 }
 
+.dropdown-toggle:hover {
+    color: $mostaza;
+}
+
 .section { 
     font-weight: 700;
     font-style: italic;
@@ -191,8 +195,17 @@ h5 {
 /*PAGE DE CONTACTO*/
 .form-control {
     resize: none;
+    font-weight: 300;
+    color: $gris-azul;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $gris-azul;
 }
 
 .btn-contact {
     background-color: $gris-azul;
 }
+

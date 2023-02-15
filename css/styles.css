@@ -40,13 +40,6 @@ footer span {
   margin-bottom: 0.5rem;
 }
 
-.redes__sociales {
-  background-color: #5E707F;
-  display: flex;
-  justify-content: flex-end;
-  gap: 1em;
-}
-
 hr {
   height: 0.5rem;
   background-color: #D6BB71;
@@ -75,6 +68,13 @@ hr {
   font-size: 1.2rem;
   color: #5E707F;
   margin-top: 1.5rem;
+}
+
+.redes__sociales {
+  background-color: #5E707F;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
 }
 
 /*GENERAL PARA TODAS LAS PAGES EXCEPTO HOME*/
@@ -151,6 +151,16 @@ h5 {
   font-style: italic;
   padding: 0.5rem;
 }
+.container li {
+  color: #5E707F;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.dropdown-toggle:hover {
+  color: #D6BB71;
+}
 
 .section {
   font-weight: 700;
@@ -181,9 +191,24 @@ h5 {
   border: none;
 }
 
+.envios-txt, .container li {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #5E707F;
+  text-align: justify;
+}
+
 /*PAGE DE CONTACTO*/
 .form-control {
   resize: none;
+  font-weight: 300;
+  color: #5E707F;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #5E707F;
 }
 
 .btn-contact {
